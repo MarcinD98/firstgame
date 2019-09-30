@@ -1,0 +1,119 @@
+body
+{   margin: 0;
+    padding: 0;
+    background-color: lightslategray;
+    font-family: 'Lato', sans-serif;
+}
+
+header
+{
+    text-align: center;
+}
+
+aside 
+{
+    float: left;
+    margin: 10px 20px
+
+}
+
+.right-menu > p
+{
+    text-align: center;
+    float: left;
+}
+
+#timer, #score
+{   
+    color: white;
+    float: left;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+aside ul li
+{
+    color: white;
+    transition: 0.2s all ease;
+}
+
+aside ul li:hover
+{
+    color: yellowgreen;
+    cursor: pointer;
+}
+
+
+h1
+{
+    color: white;
+    width: 400px;
+    height: 55px;
+    display: inline-block;
+    border-bottom: 2px solid white;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-size: 40px;
+}
+
+p
+{
+    color: yellowgreen;
+    font-size: 20px;
+    margin: 0;
+}
+
+.container
+{
+    width: 900px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    float: left;
+}
+
+.card
+{
+    background-image: url(img/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 200px;
+    height: 130px;
+    margin: 5px;
+    border: 2px solid white;
+    transition: all 0.2s ease-in;
+}
+
+.card:hover
+{
+    border: 2px solid yellowgreen;
+    transform: scale(1.1);
+}
+
+.endGame
+{
+    font-size: 48px;
+    text-align: center;
+    color: gold;
+}
+
+.container p
+{
+    color: white;
+    font-size: 40px;
+    margin-top: 5px;
+    margin-left: 30px;
+    transition: 0.2s all ease;
+    display: inline-block;
+    border-bottom: 2px solid white;
+    width: 400px;
+    height: 55px;
+}
+
+.container p:hover
+{
+    color: yellowgreen;
+    cursor: pointer;
+}
+
